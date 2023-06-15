@@ -1,4 +1,55 @@
+:root{
+    ---maincolor:rgb(43, 163, 43);
+}
+
 .headermain{
     display: flex;
     justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    box-shadow:  0 1px 10px rgba(0, 0, 0, 0.4);
+}
+.headermain .Logo{
+    color: var(---maincolor);
+    padding: 050px;
+}
+.headermain .Logo span{
+    color: black;
+}
+.headermain .nav{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+}
+.headermain .nav li{
+    margin-left:30px ;
+    font-size: 18px;
+    transition: .3s;
+    cursor: pointer;
+}
+.headermain .nav li:hover{
+    color: var(---maincolor);
+
+}
+.headermain .logout-sec{
+    color: var(---maincolor);
+    padding: 0 50px;
+    font-size: 18px;
+    cursor: pointer;
+}
+/* //----- body page-----// */
+
+.bodyMain{
+    padding: 100px 50px;
+}
+.bodyMain .Logo{
+    font-size: 90px;
+    color: var(---maincolor);
+}
+.bodyMain .Logo span{
+    color: black;
+}
+.bodyMain .secon-line{
+   font-size: 22px;
 }

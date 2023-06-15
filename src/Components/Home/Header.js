@@ -1,14 +1,15 @@
 import React from 'react'
 import './Home.css'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <>
         <div className='headermain'>
-            <h1 className='Logo'>Logo</h1>
+            <h1 className='Logo'>Learn<span>EZ</span></h1>
             <div className='nav'>
-                <li>link 1</li>
-                <li>link 2</li>
+                <Link to='/dashboard'><li>Dashboard</li></Link>
+                <li>support</li>
             </div>
 
             <div className='logout-sec'>
